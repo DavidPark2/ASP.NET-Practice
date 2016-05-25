@@ -13,16 +13,15 @@ namespace AboutMe.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Services()
         {
-            ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "Using my knowledge, I will make a beautiful website that will make your business flourish";
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Portfolio()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "My Awesome Project!!!";
 
             return View();
         }
